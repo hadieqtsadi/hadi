@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'koodak';
+    src: url('../fonts/KoodakBold.eot#?')format('eot'), src: url('../fonts/koodakBold.ttf')format('truetype'), src: url('../fonts/koodakBold.woff')format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'nazanin';
+    src: url('../fonts/Nazanin.eot#?')format('eot'), src: url('../fonts/Nazanin.ttf')format('truetype'), src: url('../fonts/Nazanin.woff')format('woff');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'yekan';
+    src: url('../fonts/Yekan.eot#?')format('eot'), src: url('../fonts/Yekan.ttf')format('truetype'), src: url('../fonts/Yekan.woff')format('woff'), src: url('../fonts/Yekan.woff2')format('woff2');
+    font-weight: normal;
+    font-size: normal;
+}
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow:.5rem .5rem 0 rgba(0,0,0,.2);
+    --border:2rem solid var(--green);
+}
+.body{
+    font-family: yekan!important;
+}
+  body{
+    background-image:url(bg-img.png);
+     background-repeat: no-repeat;
+     font-weight: 400;
+     font-size: 18px;
+}
+.nav-link{
+    font-weight: 700;
+}
+h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+#sec-bg{
+    background-color:#AFCBE9;
+}
+footer{
+    background-color: #DAE6FB;
+}
+#icon1{
+    background-color:#D9FAE5ff;
+}
+#icon2{
+    background-color: #FDEDEEff;;
+}
+#icon3{
+    background-color: #EEF8FAff;
+}
+#icon4{
+    background-color: #FFF6EAff;
+}
+.icons-caontainer{
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(20rerm,1fr));
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.icons-caontainer .icons{
+    background-color: #FFF;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    border-radius: 0.5rem;
+    text-align: center;
+    padding-top: 2.5rem;
+}
+.icons-caontainer .icons i{
+    font-size: 4.5rem;
+    color: var(--green);
+    padding-bottom: .7rem;
+}
+.icons-caontainer .icons h3{
+    font-size: 4.5rem;
+    color: var(--black);
+    padding-bottom: .5rem 0;
+    text-shadow: var(--text-shadow);
+}
+.icons-caontainer .icons p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    padding-bottom: .5rem 0;
+    text-shadow: var(--text-shadow);
+}
